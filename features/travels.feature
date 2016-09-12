@@ -100,7 +100,6 @@ Feature: travel from to a station
      | Rotterdam   | 11,10      |
      | Utrecht     | 17,20      |
      | Roosendaal  | 3,10       |
-     | Assen       | 26,30      |
      | Maastricht  | 22,90      |
      | Groningen   | 26,30      |
 

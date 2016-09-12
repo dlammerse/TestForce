@@ -3,8 +3,8 @@ Feature: travel from to a station
   Scenario: one traveller
     Given I am at NS website for "enkele-reis"
     And I clicked accept in cookie popup
-    And I choose to travel on "25-09-2016"
     And I fill "Utrecht" as the station Vanaf
+    And I choose to travel on "25-09-2016"
     And I fill "Amsterdam" as the station Naar
     And I select "1e" as the Klasse
     And I select "1" as the number of Reizigers

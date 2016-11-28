@@ -16,11 +16,11 @@ public class BrowserFactory {
 
     public WebDriver createFfDriver() throws MalformedURLException {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
-//        System.out.println("Chrome driver is here: " + System.getProperty("webdriver.chrome.driver"));
-//        WebDriver driver = new  RemoteWebDriver(new URL("https://www.google.nl"),DesiredCapabilities.chrome());
+//        System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\geckodriver.exe");
+
         WebDriver driver = new  ChromeDriver();
 //        WebDriver driver = new FirefoxDriver();
-  //        driver.manage().window().maximize();
+        driver.get("http://www.ns.nl");
         return driver;
     }
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/testforce.iml" filepath="$PROJECT_DIR$/testforce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestForce.iml" filepath="$PROJECT_DIR$/TestForce.iml" />
     </modules>
   </component>
 </project>

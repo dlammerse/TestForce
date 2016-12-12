@@ -10,6 +10,7 @@ Download&Install:
 
 - IntelliJ community edition
 - git (https://git-scm.com)
+- java jdk (not jre)
 
 
 ## Setup

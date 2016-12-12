@@ -17,7 +17,7 @@ Download&Install:
 
 - Start up IntelliJ
 - Choose prject from Version-control -> Git
-- Fill in URL "https://github.com/dlammerse/TestForce2.git"
+- Fill in URL "https://github.com/dlammerse/TestForce.git"
 - Test
 
 

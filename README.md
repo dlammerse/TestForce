@@ -20,10 +20,10 @@ Download&Install:
 - Fill in URL "https://github.com/dlammerse/TestForce.git"
 - press Test
 
---------------------
-- open project structure (CTRL + Shift + Alt + S)
-- modules tab
-- select JDK and direct to you java/jdk folder
+- in IntelliJ
+  - open project structure (CTRL + Shift + Alt + S)
+  - modules tab
+  - select JDK and direct to you java/jdk folder
 
 
 

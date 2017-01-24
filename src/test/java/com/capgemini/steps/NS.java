@@ -15,17 +15,17 @@ import java.net.MalformedURLException;
  * Created by DLAMMERS on 19/4/2016.
  */
 public class NS {
-    WebDriver browser;
+    private WebDriver browser;
 
     public NS() throws MalformedURLException {
-        this.browser = new BrowserFactory().createFfDriver();
+        this.browser = BrowserFactory.createFfDriver();
 
     }
 
 
     @Given("^I am at www.ns.nl$")
     public void iAmAtWwwNsNl() throws Throwable {
-        browser.get("https://www.ns.nl/producten/s/enkele-reis");
+        browser.get("https://www.ns.nl/producten/en/s/enkele-reis");
     }
 
     @And("^I clicked accept in cookie popup$")
@@ -42,4 +42,5 @@ public class NS {
         browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
 
     }
+
 }

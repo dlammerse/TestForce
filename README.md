@@ -19,6 +19,7 @@ Download&Install:
 - Choose Check out from Version Control -> Git
 - Fill in URL "https://github.com/dlammerse/TestForce.git"
 - press Test
+- press Clone
 
 - in IntelliJ
   - open project structure (CTRL + Shift + Alt + S)

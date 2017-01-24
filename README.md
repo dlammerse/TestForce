@@ -8,9 +8,9 @@ Download&Install:
 - Firebug
 - Firepath
 
-- IntelliJ community edition
 - git (https://git-scm.com)
 - java jdk (not jre)
+- IntelliJ community edition
 
 
 ## Setup

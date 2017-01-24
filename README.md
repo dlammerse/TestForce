@@ -16,7 +16,7 @@ Download&Install:
 ## Setup
 
 - Start up IntelliJ
-- Choose prject from Version-control -> Git
+- Choose Check out from Version Control -> Git
 - Fill in URL "https://github.com/dlammerse/TestForce.git"
 - press Test
 

@@ -26,6 +26,7 @@ Download&Install:
   - modules tab
   - select JDK and direct to you java/jdk folder
 
+- install plugins: gherkin, cucumber
 
 
 

@@ -42,5 +42,11 @@ public class NS {
         browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
 
     }
+    
+    private WebElement waitForElement(String selector) {
+        WebDriverWait wait = new WebDriverWait(browser, 15);
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));
+        return element;
+    }
 
 }

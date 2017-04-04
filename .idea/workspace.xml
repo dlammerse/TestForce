@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb19162-321c-483b-9391-9c3f5a53ef7f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test3" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestForce.iml" afterPath="$PROJECT_DIR$/TestForce.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/features/travels.feature" afterPath="$PROJECT_DIR$/answers/features/travels.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/steps/ABN.java" afterPath="$PROJECT_DIR$/answers/steps/ABN.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/steps/NS.java" afterPath="$PROJECT_DIR$/answers/steps/NS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/browser.properties" afterPath="$PROJECT_DIR$/browser.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/capgemini/steps/ABN.java" afterPath="$PROJECT_DIR$/src/test/java/com/capgemini/steps/ABN.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java" afterPath="$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java" />
     </list>
     <list id="9a0f39ce-806b-4049-93c9-65f486e6f5f4" name="Rejected commit: Default" comment="Working project" />
@@ -42,58 +34,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding>
-                <marker date="1491333230031" expanded="true" signature="37:182" ph="Scenario: travel from Amsterdam to Utrecht" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answers/steps/NS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="300" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="travels.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answers/features/travels.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -102,8 +42,8 @@
       <file leaf-file-name="NS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="348">
+              <caret line="353" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,31 +51,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browser.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browser.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ABN.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/steps/ABN.java">
+        <entry file="file://$PROJECT_DIR$/answers/steps/ABN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <marker date="1491333806645" expanded="true" signature="37:607" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="64" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="NS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answers/steps/NS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="499">
+              <caret line="438" column="0" lean-forward="true" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="travels.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answers/features/travels.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="862">
+              <caret line="129" column="36" lean-forward="false" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -149,6 +103,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iFillTheStationTo</find>
+      <find>as the station Naar</find>
+      <find>destinity</find>
+      <find>asser</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -172,17 +134,19 @@
         <option value="$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.0.11/cucumber-core-1.0.11.jar!/cucumber/cli/Main.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/capgemini/IBANcheck.java" />
         <option value="$PROJECT_DIR$/features/travels.feature" />
-        <option value="$PROJECT_DIR$/answers/features/travels.feature" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/answers/steps/NS.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/steps/ABN.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java" />
         <option value="$PROJECT_DIR$/browser.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/answers/steps/ABN.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java" />
+        <option value="$PROJECT_DIR$/features/travels2.feature" />
+        <option value="$PROJECT_DIR$/answers/features/travels.feature" />
+        <option value="$PROJECT_DIR$/answers/steps/NS.java" />
       </list>
     </option>
   </component>
@@ -412,6 +376,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="capgemini" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -469,7 +445,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/features/travels.feature" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HAN" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -484,6 +460,10 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Jurn\IdeaProjects\TestForce\src\test\java\com\capgemini\steps" />
+      <recent name="F:\Jurn\IdeaProjects\TestForce\features" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\dlammers\IdeaProjects\TestForce\answers\features" />
       <recent name="D:\Users\dlammers\IdeaProjects\TestForce\answers\steps" />
@@ -502,69 +482,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: travels (1)">
-    <configuration default="false" name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/features" />
-      <option name="GLUE" value="com.capgemini.steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="All Features in: features" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testforce" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Feature: travels" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Check travelling from table">
+    <configuration default="false" name="Feature: travels2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/features/travels.feature" />
-      <option name="GLUE" value="com.capgemini.steps" />
+      <option name="myFilePath" value="$PROJECT_DIR$/features/travels2.feature" />
+      <option name="GLUE" value="com.capgemini.ourWebdriver com.capgemini.steps" />
       <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: travels" />
+      <option name="myGeneratedName" value="Feature: travels2" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testforce" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: travel from Amsterdam to Utrecht" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/features/travels.feature" />
-      <option name="GLUE" value="com.capgemini.steps" />
-      <option name="myNameFilter" value="^travel from Amsterdam to Utrecht$" />
-      <option name="myGeneratedName" value="Scenario: travel from Amsterdam to Utrecht" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^travel from Amsterdam to Utrecht$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -575,44 +507,92 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: travel from Amsterdam to Utrecht (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Scenario: Two adults and two kids" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/features/travels.feature" />
-      <option name="GLUE" value="com.capgemini.steps" />
-      <option name="myNameFilter" value="^travel from Amsterdam to Utrecht$" />
-      <option name="myGeneratedName" value="Scenario: travel from Amsterdam to Utrecht" />
+      <option name="myFilePath" value="$PROJECT_DIR$/features/travels2.feature" />
+      <option name="GLUE" value="com.capgemini.ourWebdriver com.capgemini.steps" />
+      <option name="myNameFilter" value="^Two adults and two kids$" />
+      <option name="myGeneratedName" value="Scenario: Two adults and two kids" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^travel from Amsterdam to Utrecht$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Two adults and two kids$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testforce" />
+      <module name="TestForce" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Feature: travels (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Scenario: Schoolreisje" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/features/travels.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/features/travels2.feature" />
       <option name="GLUE" value="com.capgemini.ourWebdriver com.capgemini.steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: travels" />
+      <option name="myNameFilter" value="^Schoolreisje$" />
+      <option name="myGeneratedName" value="Scenario: Schoolreisje" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Schoolreisje$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestForce" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Check travel table" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/features/travels2.feature" />
+      <option name="GLUE" value="com.capgemini.ourWebdriver com.capgemini.steps" />
+      <option name="myNameFilter" value="^Check travel table$" />
+      <option name="myGeneratedName" value="Scenario: Check travel table" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Check travel table$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestForce" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Check travelling from table" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/features/travels2.feature" />
+      <option name="GLUE" value="com.capgemini.ourWebdriver com.capgemini.steps" />
+      <option name="myNameFilter" value="^Check travelling from table$" />
+      <option name="myGeneratedName" value="Scenario: Check travelling from table" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Check travelling from table$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -870,19 +850,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.NS test 1" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.All Features in: features" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: travels" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: travel from Amsterdam to Utrecht" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: travel from Amsterdam to Utrecht (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Cucumber java.Feature: travels (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: travels2" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Two adults and two kids" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Schoolreisje" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Check travel table" />
+      <item index="5" class="java.lang.String" itemvalue="Cucumber java.Scenario: Check travelling from table" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: travels (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: travel from Amsterdam to Utrecht" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: travel from Amsterdam to Utrecht (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: travels" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: features" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Check travelling from table" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Check travel table" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: travels2" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Schoolreisje" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Two adults and two kids" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -930,35 +910,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__travels_(1) - 2017.04.04 at 21h 19m 54s.xml">
-      <configuration name="Feature: travels (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__travels2 - 2017.04.05 at 00h 10m 00s.xml">
+      <configuration name="Feature: travels2" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht - 2016.07.07 at 09h 25m 48s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__travels2 - 2017.04.05 at 00h 26m 21s.xml">
+      <configuration name="Feature: travels2" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht - 2016.11.28 at 20h 24m 24s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__travels2 - 2017.04.05 at 00h 33m 06s.xml">
+      <configuration name="Feature: travels2" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht - 2016.11.28 at 20h 25m 55s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Check_travel_table - 2017.04.05 at 00h 34m 12s.xml">
+      <configuration name="Scenario: Check travel table" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht_(1) - 2016.09.25 at 20h 05m 43s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Check_travelling_from_table - 2017.04.05 at 00h 35m 07s.xml">
+      <configuration name="Scenario: Check travelling from table" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht_(1) - 2016.09.25 at 20h 09m 28s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Check_travelling_from_table - 2017.04.05 at 00h 35m 56s.xml">
+      <configuration name="Scenario: Check travelling from table" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht_(1) - 2016.11.28 at 19h 55m 59s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Schoolreisje - 2017.04.05 at 00h 28m 47s.xml">
+      <configuration name="Scenario: Schoolreisje" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht_(1) - 2016.11.28 at 19h 59m 46s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Schoolreisje - 2017.04.05 at 00h 29m 48s.xml">
+      <configuration name="Scenario: Schoolreisje" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht_(1) - 2016.11.28 at 20h 02m 00s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Two_adults_and_two_kids - 2017.04.05 at 00h 22m 42s.xml">
+      <configuration name="Scenario: Two adults and two kids" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__travel_from_Amsterdam_to_Utrecht_(1) - 2016.11.28 at 20h 07m 22s.xml">
-      <configuration name="Scenario: travel from Amsterdam to Utrecht (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__all_directions - 2017.04.05 at 00h 06m 40s.xml">
+      <configuration name="Scenario: all directions" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -971,25 +951,25 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.4859375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.38219616" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4038055" sideWeight="0.12135417" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27843988" sideWeight="0.24040511" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49925926" sideWeight="0.4815951" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4038055" sideWeight="0.87864584" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27843988" sideWeight="0.75959486" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.309375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="505" y="181" width="417" height="383" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31663114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="505" y="181" width="417" height="383" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.44583333" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1046,7 +1026,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1055,14 +1035,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/ABN/repositories/refactored-trunk/twist-project/src/com/abnamro/rast/generic/driver/webdriver/BrowserType.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1239,56 +1211,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/travels.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <marker date="1491333230031" expanded="true" signature="37:182" ph="Scenario: travel from Amsterdam to Utrecht" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/BrowserFactory.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/features/travels.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/steps/NS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="300" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,11 +1236,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/answers/steps/ABN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <marker date="1491333806645" expanded="true" signature="37:607" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/travels.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="64" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/travels2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/features/travels.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="129" column="36" lean-forward="false" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="353" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/steps/NS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="438" column="0" lean-forward="true" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

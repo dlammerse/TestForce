@@ -7,16 +7,18 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import com.capgemini.BrowserFactory;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;;
+import com.capgemini.ourWebdriver.BrowserFactory;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 import java.util.List;
 
-import static com.google.common.base.Verify.verify;
-import static junit.framework.Assert.assertTrue;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
 
 
 /**
@@ -49,7 +51,7 @@ public class NS {
 
     @When("^I choose to travel today$")
     public void iChooseToTravelToday() throws Throwable {
-             browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
+        browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
     }
 
     @And("^I choose to travel on \"([^\"]*)\"$")
@@ -60,17 +62,24 @@ public class NS {
 
     @And("^I fill \"([^\"]*)\" as the station Vanaf$")
     public void iFillAsTheStationVanaf(String stationVanaf) throws Throwable {
+        waitForElement("#displayStationFrom");
         browser.findElement(By.cssSelector("#displayStationFrom")).sendKeys(stationVanaf);
+        findStationInDropDown(stationVanaf);
     }
 
     @And("^I fill the station To$")
     public void iFillTheStationTo() throws Throwable {
+        waitForElement("#displayStationTo");
         browser.findElement(By.cssSelector("#displayStationTo")).sendKeys("Amsterdam");
+        findStationInDropDown("Amsterdam Airport");
+    }
+
+    private void findStationInDropDown(String station) throws InterruptedException {
         Thread.sleep(1000);
         List<WebElement> listOfElements = browser.findElements(By.cssSelector(".ui-menu-item [id*=\"ui-id-\"]"));
         for(WebElement oneElement: listOfElements){
             String textOfElement = oneElement.getText();
-            if (textOfElement.equals("Amsterdam Airport")){
+            if (textOfElement.equals(station)){
                 oneElement.click();
                 return;
             }
@@ -79,17 +88,12 @@ public class NS {
 
     @And("^I fill \"([^\"]*)\" as the station Naar$")
     public void iFillAsTheStationNaar(String stationNaar) throws Throwable {
+        waitForElement("#displayStationTo");
+        //The element.clear() needs a few seconds between showing and clearing
+        Thread.sleep(1000);
         browser.findElement(By.cssSelector("#displayStationTo")).clear();
         browser.findElement(By.cssSelector("#displayStationTo")).sendKeys(stationNaar);
-        Thread.sleep(1000);
-        List<WebElement> listOfElements = browser.findElements(By.cssSelector(".ui-menu-item [id*=\"ui-id-\"]"));
-        for(WebElement oneElement: listOfElements){
-                    String textOfElement = oneElement.getText();
-                    if (textOfElement.equals(stationNaar)){
-                        oneElement.click();
-                        return;
-            }
-        }
+        findStationInDropDown(stationNaar);
     }
 
     @And("^I select \"([^\"]*)\" as the Klasse$")
@@ -105,7 +109,7 @@ public class NS {
     @And("^I select \"([^\"]*)\" as the number of Reizigers$")
     public void iSelectAsTheNumberOfReizigers(Integer numberOfPassengers) throws Throwable {
         for(int i = 1 ; i<= numberOfPassengers -1 ; i++){
-        browser.findElement(By.cssSelector(".plus-active")).click();
+            browser.findElement(By.cssSelector(".plus-active")).click();
         }
     }
 
@@ -131,22 +135,24 @@ public class NS {
 
     @And("^I fill \"([^\"]*)\" as the first Birth date$")
     public void iFillAsTheFirstBirthDate(String firstBirthdate) throws Throwable {
-        String birthDay = Integer.toString(Integer.parseInt(firstBirthdate.substring(0,2)));
-        String birthMonth = Integer.toString(Integer.parseInt(firstBirthdate.substring(3,5)));
-        String birthYear = firstBirthdate.substring(6,10);
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_1\"] .inputfield__selectbox--birthdateDay [value=\"" + birthDay + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_1\"] .inputfield__selectbox--birthdateMonth [value=\"" + birthMonth + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_1\"] .inputfield__selectbox--birthdateYear [value=\"" + birthYear + "\"]")).click();
+        fillInBirthDayFields(firstBirthdate, "1");
+    }
+
+    private void fillInBirthDayFields(String birthDate, String travellerNumber){
+        String birthDay = Integer.toString(Integer.parseInt(birthDate.substring(0,2)));
+        String birthMonth = Integer.toString(Integer.parseInt(birthDate.substring(3,5)));
+        String birthYear = birthDate.substring(6,10);
+
+        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_"+travellerNumber+"\"] .inputfield__selectbox--birthdateDay")).sendKeys(birthDay + Keys.ENTER);
+        String birthMonthString = browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_"+travellerNumber+"\"] .inputfield__selectbox--birthdateMonth [value=\"" + birthMonth + "\"]")).getText();
+        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_"+travellerNumber+"\"] .inputfield__selectbox--birthdateMonth")).sendKeys(birthMonthString + Keys.ENTER);
+        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_"+travellerNumber+"\"] .inputfield__selectbox--birthdateYear")).sendKeys(birthYear + Keys.ENTER);
+
     }
 
     @And("^I fill birth date \"([^\"]*)\" for traveller \"([^\"]*)\"$")
     public void iFillBirthDateForTraveller(String birthDate, String travellerNumber) throws Throwable {
-        String birthDay = Integer.toString(Integer.parseInt(birthDate.substring(0,2)));
-        String birthMonth = Integer.toString(Integer.parseInt(birthDate.substring(3,5)));
-        String birthYear = birthDate.substring(6,10);
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_" + travellerNumber + "\"] .inputfield__selectbox--birthdateDay [value=\"" + birthDay + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_" + travellerNumber + "\"] .inputfield__selectbox--birthdateMonth [value=\"" + birthMonth + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_" + travellerNumber + "\"] .inputfield__selectbox--birthdateYear [value=\"" + birthYear + "\"]")).click();
+        fillInBirthDayFields(birthDate, travellerNumber);
     }
 
     @And("^I fill \"([^\"]*)\" as the first email address$")
@@ -171,12 +177,7 @@ public class NS {
 
     @And("^I fill \"([^\"]*)\" as the second Birth date$")
     public void iFillAsTheSecondBirthDate(String secondBirthdate) throws Throwable {
-        String birthDay = Integer.toString(Integer.parseInt(secondBirthdate.substring(0,2)));
-        String birthMonth = Integer.toString(Integer.parseInt(secondBirthdate.substring(3,5)));
-        String birthYear = secondBirthdate.substring(6,10);
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_2\"] .inputfield__selectbox--birthdateDay [value=\"" + birthDay + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_2\"] .inputfield__selectbox--birthdateMonth [value=\"" + birthMonth + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_2\"] .inputfield__selectbox--birthdateYear [value=\"" + birthYear + "\"]")).click();
+        fillInBirthDayFields(secondBirthdate, "2");
     }
 
     @And("^I fill \"([^\"]*)\" as the second email address$")
@@ -186,28 +187,32 @@ public class NS {
 
     @And("^I have clicked on InWinkelwagen$")
     public void iHaveClickedOnInWinkelwagen() throws Throwable {
+        waitForElement(".button.button--nsYellow.button--arrowRight");
         browser.findElement(By.cssSelector(".button.button--nsYellow.button--arrowRight")).click();
     }
 
     @And("^I have clicked on Railrunner$")
     public void iHaveClickedOnRailrunner() throws Throwable {
+        waitForElement("[data-product-name=\"Railrunner\"] .tile__heading.headingM");
         browser.findElement(By.cssSelector("[data-product-name=\"Railrunner\"] .tile__heading.headingM")).click();
     }
 
     @And("^I have clicked on DirectBestellen$")
     public void iHaveClickedOnDirectBestellen() throws Throwable {
+        waitForElement("[class=\"grid product--detail\"] .button.button--buy");
         browser.findElement(By.cssSelector("[class=\"grid product--detail\"] .button.button--buy")).click();
     }
 
     @And("^I fill to travel today$")
     public void iFillToTravelToday() throws Throwable {
+        waitForElement("[for=\"Today_TravelDate\"]");
         browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
     }
 
     @And("^I select \"([^\"]*)\" as the number of Children$")
     public void iSelectAsTheNumberOfChildren(Integer numberOfChildren) throws Throwable {
         for(int i = 1 ; i<= numberOfChildren -1 ; i++){
-        browser.findElement(By.cssSelector(".plus-active")).click();
+            browser.findElement(By.cssSelector(".plus-active")).click();
         }
     }
 
@@ -223,12 +228,7 @@ public class NS {
 
     @And("^I fill \"([^\"]*)\" as the first child Birth date$")
     public void iFillAsTheFirstChildBirthDate(String firstChildBirthdate) throws Throwable {
-        String birthDay = Integer.toString(Integer.parseInt(firstChildBirthdate.substring(0,2)));
-        String birthMonth = Integer.toString(Integer.parseInt(firstChildBirthdate.substring(3,5)));
-        String birthYear = firstChildBirthdate.substring(6,10);
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_1\"] .inputfield__selectbox--birthdateDay [value=\"" + birthDay + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_1\"] .inputfield__selectbox--birthdateMonth [value=\"" + birthMonth + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_1\"] .inputfield__selectbox--birthdateYear [value=\"" + birthYear + "\"]")).click();
+        fillInBirthDayFields(firstChildBirthdate, "1");
     }
 
     @And("^I fill \"([^\"]*)\" as the second child initials$")
@@ -243,18 +243,13 @@ public class NS {
 
     @And("^I fill \"([^\"]*)\" as the second child Birth date$")
     public void iFillAsTheSecondChildBirthDate(String secondChildBirthdate) throws Throwable {
-        String birthDay = Integer.toString(Integer.parseInt(secondChildBirthdate.substring(0,2)));
-        String birthMonth = Integer.toString(Integer.parseInt(secondChildBirthdate.substring(3,5)));
-        String birthYear = secondChildBirthdate.substring(6,10);
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_2\"] .inputfield__selectbox--birthdateDay [value=\"" + birthDay + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_2\"] .inputfield__selectbox--birthdateMonth [value=\"" + birthMonth + "\"]")).click();
-        browser.findElement(By.cssSelector("Fieldset[name=\"PO_BirthDate_2\"] .inputfield__selectbox--birthdateYear [value=\"" + birthYear + "\"]")).click();
+        fillInBirthDayFields(secondChildBirthdate, "2");
     }
 
     @And("^I have checked the kids price$")
     public void iHaveCheckedTheKidsPrice() throws Throwable {
         String kidspriceOnScreen = browser.findElement(By.cssSelector(".total--price")).getText();
-        assertTrue(kidspriceOnScreen.contains("5,00"));    }
+        assertThat(kidspriceOnScreen, containsString("5,00"));    }
 
     @And("^I have clicked on KidsInWinkelwagen$")
     public void iHaveClickedOnKidsInWinkelwagen() throws Throwable {
@@ -264,7 +259,7 @@ public class NS {
     @And("^I have checked the total price$")
     public void iHaveCheckedTheTotalPrice() throws Throwable {
         String totalpriceOnScreen = browser.findElement(By.cssSelector(".total--price")).getText();
-        assertTrue(totalpriceOnScreen.contains("69,60"));
+        assertThat(totalpriceOnScreen, containsString("69,60"));
     }
 
     @And("^I delete the parents from the Winkelwagen$")
@@ -289,22 +284,12 @@ public class NS {
 
     @Then("^the total price is \"([^\"]*)\"$")
     public void theTotalPriceIs(String totalPrice) throws Throwable {
-        WebElement priceElement = browser.findElement(By.cssSelector(".total--price"));
- //       new Actions(browser).moveToElement(priceElement).perform();
- //       new Actions(browser).moveToElement(priceElement).click().perform();
-        Thread.sleep(2000);
-        browser.findElement(By.cssSelector(".button.button--nsYellow.button--arrowRight")).getLocation();
-        Thread.sleep(2000);
-        new Actions(browser).moveToElement(priceElement).doubleClick().perform();
-        Thread.sleep(2000);
+        WebDriverWait wait = new WebDriverWait(browser, 10);
+        wait.until(ExpectedConditions.urlContains("winkelwagen"));
 
-
-
+        waitForElement(".total--price");
         String priceOnScreen = browser.findElement(By.cssSelector(".total--price")).getText();
-        assertTrue(priceOnScreen.contains(totalPrice));
-    }
-
-    private void perform() {
+        assertThat(priceOnScreen, containsString(totalPrice));
     }
 
     @Given("^I travel today from \"([^\"]*)\"$")
@@ -312,7 +297,7 @@ public class NS {
         iAmAtWwwNsNl();
         iClickedAcceptInCookiePopup();
         iChooseToTravelToday();
-        browser.findElement(By.cssSelector("#displayStationFrom")).sendKeys(stationVanaf);
+        iFillAsTheStationVanaf(stationVanaf);
     }
 
     @When("^I'm going to \"([^\"]*)\"$")
@@ -324,7 +309,7 @@ public class NS {
         iHaveClickedOnInWinkelwagen();
     }
 
-    @When("^I change the destinity into \"([^\"]*)\"$")
+    @When("^I change the destination into \"([^\"]*)\"$")
     public void iChangeTheDestinityInto(String stationNaar) throws Throwable {
         browser.findElement(By.cssSelector(".editLink")).click();
         iFillAsTheStationNaar(stationNaar);
@@ -440,8 +425,14 @@ public class NS {
 
     @And("^I have selected Menu \"([^\"]*)\"$")
     public void iHaveSelectedMenu(String Menu) throws Throwable {
-    //    browser.findElement(By.xpath("//li[contains(text(),'Verzekeren')][@class='translate']")).click();
+        //    browser.findElement(By.xpath("//li[contains(text(),'Verzekeren')][@class='translate']")).click();
         browser.findElement(By.xpath("//li[contains(text(),'Verzekeren')]")).click();
         throw new PendingException();
+    }
+
+    private WebElement waitForElement(String selector) {
+        WebDriverWait wait = new WebDriverWait(browser, 15);
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));
+        return element;
     }
 }

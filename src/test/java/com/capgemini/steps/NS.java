@@ -6,8 +6,10 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import com.capgemini.BrowserFactory;
+import com.capgemini.ourWebdriver.BrowserFactory;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 
@@ -42,7 +44,7 @@ public class NS {
         browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
 
     }
-    
+
     private WebElement waitForElement(String selector) {
         WebDriverWait wait = new WebDriverWait(browser, 15);
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));

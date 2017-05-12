@@ -1,5 +1,6 @@
 package com.capgemini.steps;
 
+import com.capgemini.ourWebdriver.BrowserFactory;
 import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -8,7 +9,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import com.capgemini.BrowserFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -25,7 +25,7 @@ public class ABN {
     WebDriver browser;
 
     public ABN() throws MalformedURLException {
-        this.browser = new BrowserFactory().createFfDriver();
+        this.browser = BrowserFactory.createFfDriver();
     }
 
     @Given("^I am at ABN website$")

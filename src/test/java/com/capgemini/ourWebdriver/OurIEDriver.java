@@ -1,6 +1,5 @@
 package com.capgemini.ourWebdriver;
 
-import cucumber.api.java.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

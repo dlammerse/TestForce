@@ -1,7 +1,7 @@
 package com.capgemini.steps;
 
 import com.capgemini.ourWebdriver.BrowserFactory;
-import cucumber.api.PendingException;
+import com.capgemini.ourWebdriver.TearDown;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -9,8 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 
@@ -19,9 +17,10 @@ import java.net.MalformedURLException;
  */
 public class NS {
     private WebDriver browser;
+    private TearDown tearDown;
 
     public NS() throws MalformedURLException {
-        this.browser = BrowserFactory.createFfDriver();
+        this.browser = BrowserFactory.createChromeDriver();
 
     }
 
@@ -48,7 +47,16 @@ public class NS {
     public void iChooseToTravelToday() throws Throwable {
         browser.findElement(By.cssSelector("[for=\"Today_TravelDate\"]")).click();
     }
-    
 
 
+    @And("^I travel from Amsterdam$")
+    public void iTravelFromAmsterdam() throws Throwable {
+        browser.findElement(By.cssSelector("[for=\"PO_Klasse_2_\"]")).sendKeys("Amsterdam Centraal");
+
+    }
+
+//    @After
+//    public void afterScenario() {
+//        browser.quit();
+//    }
 }

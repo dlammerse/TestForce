@@ -51,7 +51,7 @@ public class NS {
 
     @And("^I travel from Amsterdam$")
     public void iTravelFromAmsterdam() throws Throwable {
-        browser.findElement(By.cssSelector("[for=\"PO_Klasse_2_\"]")).sendKeys("Amsterdam Centraal");
+        browser.findElement(By.cssSelector("#displayStationFrom")).sendKeys("Amsterdam Centraal");
 
     }
 

@@ -23,8 +23,8 @@ Download&Install:
 
 - in IntelliJ
   - open project structure (CTRL + Shift + Alt + S)
-  - modules tab
-  - select JDK and direct to you java/jdk folder
+  - Project tab
+  - choose new in Project SDK section, select JDK and direct to your java/jdk folder
 
 - install plugins: gherkin, cucumber
 

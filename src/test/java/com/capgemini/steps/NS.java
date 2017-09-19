@@ -20,7 +20,7 @@ public class NS {
     private TearDown tearDown;
 
     public NS() throws MalformedURLException {
-        this.browser = BrowserFactory.createChromeDriver();
+        this.browser = BrowserFactory.getWebDriver();
 
     }
 

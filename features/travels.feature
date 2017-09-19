@@ -5,7 +5,7 @@ Feature: travel from to a station
     And I clicked accept in cookie popup
     And I choose to travel today
     And I travel from Amsterdam
-#    And I travel to Ut recht
+#    And I travel to Utrecht
 
 
 

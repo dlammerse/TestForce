@@ -2,7 +2,7 @@ Assignments
 ==================
 
 ##### Exercise 1
-a) Create step 'And I travel from Amsterdam'. The background color of
+a) Create step 'And I travel to Utrecht'. The background color of
 the step will turn into brown box, this means that there is no java
 connected to this step. Use Alt + Enter, choose 'Create step definition',
 choose NS (com.capgemini.steps).<br/>
@@ -11,9 +11,9 @@ This exception is generated to make sure that you understand java  code a bit
 before you can run a successful execution.<br/>
 c) Use firefox to navigate to `https://www.ns.nl/producten/s/enkele-reis`
 and open firepath to identify the the selector for the From field on the NS website.<br/>
-d) In IntelliJ use copy paste from the `iChooseToTravelToday()` method, change
+d) In IntelliJ use copy paste from the `iTravelFromAmsterdam()` method, change
 the CSS selector to selector you found in firepath.<br/>
-e) Change to `.click()` to something you could use here.<br/>
+e) Is the `.sendKeys()` the right method to use here.<br/>
 f) Right-click on scenario naam 'travel from Amsterdam to Utrecht' and choose 'Run Scenario:..'
 
 

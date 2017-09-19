@@ -4,7 +4,7 @@ cucumber-java-selenium
 ## Installation
 
 Download&Install:
-- Firefox
+- Firefox (follow instructions in activateFirepath.md file if you downloaded firefox 54 or higher)
 - Firebug
 - Firepath
 

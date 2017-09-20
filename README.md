@@ -4,13 +4,14 @@ cucumber-java-selenium
 ## Installation
 
 Download&Install:
+- IntelliJ community edition
+
 - Firefox (follow instructions in disable_firefox_autostart.md file if you downloaded firefox 54 or higher)
 - Firebug
 - Firepath
 
 - git (https://git-scm.com)
 - java jdk (not jre)
-- IntelliJ community edition
 
 
 ## Setup

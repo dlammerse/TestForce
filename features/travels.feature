@@ -1,7 +1,5 @@
 Feature: travel from to a station
 
-
-
   Scenario: travel from Amsterdam to Utrecht
     Given I am at www.ns.nl
     And I clicked accept in cookie popup
@@ -12,7 +10,6 @@ Feature: travel from to a station
 
 
 #    Then I find result
-
 
   Scenario: 2 travel from Amsterdam to Utrecht with children
     Given I am at www.ns.nl

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb19162-321c-483b-9391-9c3f5a53ef7f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/travels.feature" afterPath="$PROJECT_DIR$/features/travels.feature" />
     </list>
     <list id="9a0f39ce-806b-4049-93c9-65f486e6f5f4" name="Rejected commit: Default" comment="Working project" />
     <ignored path="testforce.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="travels.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/travels.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,7 +72,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/steps/ABN.java" />
-        <option value="$PROJECT_DIR$/features/travels.feature" />
         <option value="$PROJECT_DIR$/Assignments.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/steps/NS.java" />
@@ -80,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/ourWebdriver/OurFirefoxDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/ourWebdriver/OurIEDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/capgemini/ourWebdriver/OurChromeDriver.java" />
+        <option value="$PROJECT_DIR$/features/travels.feature" />
       </list>
     </option>
   </component>
@@ -791,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505920721819</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="which tabs should be open">
+      <created>1505977008214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505977008214</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -903,7 +911,8 @@
     <MESSAGE value="updated chromedriver" />
     <MESSAGE value="Merge branch 'master' of https://github.com/dlammerse/testforce&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/com/capgemini/steps/NS.java&#10;" />
     <MESSAGE value="added extra functionality in OurWebdriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="added extra functionality in OurWebdriver" />
+    <MESSAGE value="which tabs should be open" />
+    <option name="LAST_COMMIT_MESSAGE" value="which tabs should be open" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,8 +1201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/travels.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

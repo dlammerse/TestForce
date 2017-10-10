@@ -45,7 +45,7 @@ b) Reuse steps from the first scenario<br/>
 c) Execute the second scenario
 
 ##### Exercise 6
-Use Scenario Outlines to execute scenario several times with different data
+Use Scenario Outlines to execute scenario several times with different data (visit https://docs.cucumber.io/docs/gherkin.html for an example)
 
 ##### Exercise 7
 Make a scenario that navigates back and forward to the shopping cart.

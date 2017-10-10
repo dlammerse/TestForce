@@ -56,7 +56,7 @@ Use datatables to input more lines of data in a scenario. Use a for loop
 to access all the data in the table.
 
 ##### Exercise 9
-Make a new feature file and test the  `http://www.deltalloyd.nl/overlijdensrisicoverzekering/`. What new issues do you face at this page?
+Make a new feature file and test the  `http://www.deltalloyd.nl/overlijdensrisicoverzekering/` page. What new issues do you face at this page?
 
 <br/><br/>
 ------------

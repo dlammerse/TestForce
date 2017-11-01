@@ -4,9 +4,9 @@ cucumber-java-selenium
 ## Installation
 
 Download&Install:
-- IntelliJ community edition
+- IntelliJ community edition 
 
-- Firefox (follow instructions in disable_firefox_autostart.md file if you downloaded firefox 54 or higher)
+- Firefox ESR (this version of firefox is needed to properly find selectors)
 - Firebug
 - Firepath
 
@@ -27,7 +27,9 @@ Download&Install:
   - project tab
   - choose new in Project SDK section, select JDK and direct to your java/jdk folder
 
-- install plugins: gherkin, cucumber
+- IntelliJ will prompt to autoamtically install plugins. Install the following: 
+  - gherkin (if more gherkin are offered choose only the newest)
+  - cucumber for java
 
 
 

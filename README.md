@@ -30,6 +30,7 @@ Download&Install:
 - IntelliJ will prompt to autoamtically install plugins. Install the following: 
   - gherkin (if more gherkin are offered choose only the newest)
   - cucumber for java
+  - <b>Don't</b> install the substep plugin
 
 
 

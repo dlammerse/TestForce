@@ -10,7 +10,7 @@ b) Check the generated java code, remove the auto generated `throw new PendingEx
 This exception is generated to make sure that you understand java code a bit
 before you can run a successful execution.<br/>
 c) Use Chrome to navigate to `https://www.ns.nl/producten/s/enkele-reis`
-and open the Developer tools using F12 to identify the the selector for the To field on the NS website.<br/>
+and open the Developer tools using F12 to identify the the selector for the 'To' field on the NS website.<br/>
 d) In IntelliJ use copy paste from the `iTravelFromAmsterdam()` method, change
 the CSS selector to selector you found in firepath.<br/>
 e) Is the `.sendKeys()` the right method to use here?<br/>

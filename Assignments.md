@@ -64,7 +64,7 @@ to access all the data in the table.
 ##### Exercise 10
 Make a new feature file and test the  `http://www.deltalloyd.nl/overlijdensrisicoverzekering/` page. What new issues do you face at this page?
 
-<br/>
+<br/><br/>
 ------------
 ##### Advanced exercises
 a) Rename the step **I clicked accept in cookie popup** to **I click accept

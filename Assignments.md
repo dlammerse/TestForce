@@ -34,8 +34,8 @@ c) If an unique selector is difficult to find check if CheatSheet.docx can help 
 `www.ns.nl` did a good job in adding id's to their webpage, this makes testing a lot easier. 
 However not all webpage use id's. To be prepared for those 'bad' webpages, repeat Excercise 2, 
 but don't use any # this time.  
-<br/><br/>
-*NOTE: If a webpage does have id's please use selectors refering to them. Elements will be found quickly and your coding will be readable. Not using them now is just an exercise.* <br/><br/>
+<br/>
+*NOTE: If a webpage does have id's please use selectors refering to them. Elements will be found quickly and your coding will be readable. Not using them now is just an exercise.* <br/>
 
 ##### Exercise 4
 a) Add ticket to shopping cart and check if the price is what you expect.<br/>

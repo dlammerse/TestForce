@@ -6,12 +6,10 @@ cucumber-java-selenium
 Download&Install:
 - IntelliJ community edition 
 
-- Firefox ESR (this version of firefox is needed to properly find selectors)
-- Firebug
-- Firepath
+- In Chrome search on 'ChroPath' and add the extension to your browser
 
-- git (https://git-scm.com)
-- java jdk (not jre)
+- git (https://git-scm.com) (yes you need this one too, students always forget this one, just search on 'Download git')
+- java jdk 8 (not jre)
 
 
 ## Setup
@@ -27,7 +25,7 @@ Download&Install:
   - project tab
   - choose new in Project SDK section, select JDK and direct to your java/jdk folder
 
-- IntelliJ will prompt to autoamtically install plugins. Install the following: 
+- IntelliJ will prompt to automatically install plugins. Install the following: 
   - gherkin (if more gherkin are offered choose only the newest)
   - cucumber for java
   - <b>Don't</b> install the Substeps plugin

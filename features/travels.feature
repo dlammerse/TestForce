@@ -5,7 +5,19 @@ Feature: travel from to a station
     And I clicked accept in cookie popup
     And I choose to travel today
     And I travel from Amsterdam
-#    And I travel to Utrecht
+    And I travel to Utrecht
+    And I set Class
+    And no of pessengers
+
+    And I set Initials
+    And I set Surname
+    And Set date of birth
+    And Set date Month
+    And Set date Year
+    And Set Email address
+    And Add to shoppingcard
+    And verify price
+
 
 
 

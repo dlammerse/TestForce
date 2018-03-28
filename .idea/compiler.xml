@@ -11,8 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="testforce" target="1.5" />
-      <module name="TestForce" target="1.5" />
+      <module name="TestForce" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

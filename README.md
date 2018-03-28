@@ -8,9 +8,7 @@ Download&Install:
 
 - In Chrome search on 'ChroPath' and add the extension to your browser
 
-- git (https://git-scm.com)
-
-`note: yes you need this one too, students always forget this one, just search on 'download git'`
+- git (https://git-scm.com) `note: students always forget this one, just search on 'download git'`
 - java jdk 8 (not jre)
 
 

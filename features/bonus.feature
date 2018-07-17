@@ -4,10 +4,10 @@ Feature: End-of-year bonus allocation
 
   Scenario: calculate bonuses
     Given A manager with a salary of 100,000
-    And A lab rat with a salary of 5,000,000
+    And A lab rat with a salary of 50,000
     When the bonus are calculated
     Then a manager gets 20,000 bonus
-    And a lab rat gets 500,000 bonus
+    And a lab rat gets 5,000 bonus
 
 
 
